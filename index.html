@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="/images/fav-icon2.ico" type="image/x-icon">
+  <link rel="icon" href="/images/fav-icon2.ico" type="image/x-icon">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="stylesheet" href="index.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Gajraj+One&family=Tangerine&display=swap" rel="stylesheet">
+
+
+  <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css" />
+
+  <!-- =====BOX ICONS===== -->
+  <link href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+  <title>Nandan Kumar Singh | Portfolio</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"
+    integrity="sha512-BdHyGtczsUoFcEma+MfXc71KJLv/cd+sUsUaYYf2mXpfG/PtBjNXsPo78+rxWjscxUYN2Qr2+DbeGGiJx81ifg=="
+    crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <!--===== HEADER =====-->
+  <header class="l-header">
+    <nav id="nav-menu" class="nav bd-grid">
+      <div>
+        <a href="#" class="nav__logo">
+          <div class="logo logo_sign"><a style="color: #7169C9 !important;" href="#home">Nandan <span>Kumar</span>
+              <span>Singh</span>
+            </a>
+          </div>
+        </a>
+      </div>
+
+      <div class="nav__menu" id="nav-menu1">
+        <ul class="nav__list">
+          <!-- <li class="nav__item">
+            <a href="#home" class="nav-link home">
+              <i class="uil uil-home"></i>Home</a>
+          </li> -->
+          <li class="nav__item">
+            <a href="#home" class="nav-link home">
+              <i class="uil uil-home"></i>Home</a>
+          </li>
+          <li class="nav__item">
+            <a href="#about" class="nav-link about">
+              <i class="uil uil-user nav_icon"></i> About
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#skills" class="nav-link skills">
+              <i class="uil uil-file-alt nav_icon"></i>Skills
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#projects" class="nav-link projects">
+              <i class="uil uil-lightbulb-alt nav_icon"></i>Projects
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#contact" class="nav-link contact">
+              <i class="uil uil-message nav_icon"></i> Contact
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="./Nandan_Kumar_Singh_Resume.pdf" id="resume-link-1" class="nav__link nav-link resume"
+              download="Nandan_Kumar_Singh_Resume"
+              onclick="window.open('https://drive.google.com/file/d/13CAo9mHRKiwe4PG0KrggieO0AE_Ly1T1/view?usp=drive_link')">
+              <i class="uil uil-message nav_icon"></i> Resume
+              <button id="resume-button-1" style="width: 0%; background-color: inherit; border: 0;"
+                download="Nandan_Kumar_Singh_Resume"
+                onclick="window.open('https://drive.google.com/file/d/13CAo9mHRKiwe4PG0KrggieO0AE_Ly1T1/view?usp=drive_link')"></button>
+            </a>
+
+            <!-- <button id="resume-button-1" onclick="resumeDownload()" class="nav-link resume" style="width: 0%; background-color: inherit; border:0;">
+              <i class="uil uil-message nav_icon"></i>
+              <a id="resume-link-1" href="./Apurv_Singh_Resume.pdf" class="nav__link nav-link resume" download>Resume</a>
+            </button> -->
+          </li>
+        </ul>
+      </div>
+
+      <div class="nav__toggle" id="nav-toggle">
+        <i class="bx bx-menu"></i>
+      </div>
+    </nav>
+  </header>
+
+  <main class="l-main">
+    <!--===== HOME =====-->
+    <section class="home bd-grid" id="home">
+      <div class="home__data">
+        <h1 id="user-detail-name" class="home__title">
+          Hi,<br />I'm
+          <span class="home__title-color">Nandan Kumar Singh</span><br />
+          <div class="text-out">
+            <div class="text"></div>
+          </div>
+        </h1>
+        <a href="./Nandan_Kumar_Singh_Resume.pdf" id="resume-link-2" class="button resume"
+          download="Nandan_Kumar_Singh_Resume"
+          onclick="window.open('https://drive.google.com/file/d/13CAo9mHRKiwe4PG0KrggieO0AE_Ly1T1/view?usp=drive_link')">
+          Download Resume
+          <button id="resume-button-2" style="width: 0%; background-color: inherit; border: 0;"
+            download="Nandan_Kumar_Singh_Resume"
+            onclick="window.open('https://drive.google.com/file/d/13CAo9mHRKiwe4PG0KrggieO0AE_Ly1T1/view?usp=drive_link')"></button>
+        </a>
+        <!-- <button id="resume-button-2" onclick="resumeDownload()" class="nav-link resume" style="width: 0%; background-color: inherit; border: 0;" >
+           <i class="fa-solid fa-file-arrow-down icon"></i> -->
+        <!-- <a id="resume-link-2" href="./Apurv_Singh_Resume.pdf" class="button resume" download>Resume</a>
+        </button> -->
+      </div>
+
+      <div id="contact-linkedin" class="home__social">
+        <a href="https://www.linkedin.com/in/nandan3512/" target="_blank" class="home__social-icon"><i
+            class="bx bxl-linkedin"></i></a>
+        <a id="contact-github" href="https://github.com/nanksi" target="_blank" class="home__social-icon"><i
+            class="bx bxl-github"></i></a>
+      </div>
+
+      <div>
+        <img class="home-img" src="./images/Nandan.png" alt="Nandan Proffessional Image" />
+      </div>
+    </section>
+
+    <!--===== ABOUT =====-->
+    <section class="about section" id="about">
+      <h2 class="section-title">About</h2>
+
+      <div class="about-container bd-grid">
+
+        <div id="user-detail-intro" style="text-align: center">
+          <p class="about-text">
+            Currently, I'm Software Development Engineering in Testing including technologies like Selenium, Cypress,
+            Rest Assurd, Cucumber and Tech Stack like JavaScript, Java, basic Python, HTML, CSS. I am passionate about
+            Automation Testing and actively looking for opportunities in the field of SDET.
+          </p>
+          <br />
+          <p>
+            Drop a mail @ <a href="mailto:nandan.kumar.singh.3512@gmail.com">nandan.kumar.singh.3512@gmail.com</a>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!--===== SKILLS =====-->
+
+    <section class="skills section" id="skills">
+
+
+      <div class="skills-container bd-grid">
+        <div>
+
+          <div class="skills-data">
+            <div class="skills-card">
+              <img class="skills-card-img skills-icon" src="images/restassured.png" />
+              <span class="skills-card-name">Rest Assured</span>
+            </div>
+          </div>
+          <div class="skills-data">
+            <div class="skills-card">
+              <img class="skills-card-img skills-icon" src="images/appium.png" />
+              <span class="skills-card-name"> Appium </span>
+            </div>
+          </div>
+
+          <div class="skills-data">
+            <div class="skills-card">
+              <img class="skills-card-img skills-icon" src="images/jmeter.png" />
+              <span class="skills-card-name">Jmeter</span>
+            </div>
+          </div>
+
+        </div>
+        <div>
+
+          <div class="skills-data">
+            <div class="skills-card">
+              <img class="skills-card-img skills-icon" src="images/selenium.png" />
+              <span class="skills-card-name">Selenium</span>
+            </div>
+          </div>
+
+          <div class="skills-data">
+            <div class="skills-card">
+              <img class="skills-card-img skills-icon" src="images/cypress.jpg" />
+              <span class="skills-card-name">Cypress</span>
+            </div>
+          </div>
+
+          <div class="skills-data">
+            <div class="skills-card">
+              <img class="skills-card-img skills-icon" src="images\mysql.png" alt="">
+              <span class="skills-card-name">SQL </span>
+            </div>
+          </div>
+
+
+          <!-- <div class="skills-data">
+              <div class="skills-card">
+                <img class="skills-card-img skills-icon"
+                  src="data:image/png;base64,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" />
+                <span class="skills-card-name">OAuth</span>
+              </div>
+            </div> -->
+        </div>
+        <div>
+
+          <div class="skills-data">
+            <div class="skills-card">
+              <img class="skills-card-img skills-icon"
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHcAAAB3CAMAAAAO5y+4AAAAaVBMVEX///8XFRUAAAATERH09PTp6ekQDQ0GAAC4uLj39/e8vLzw8PD8/PzAwMALBwe0tLSUlJSfn5+Ih4fg4OB2dnYjIiLQ0NArKirY2Nh/fn7LysppaGhMS0thYWE4NzcdHByop6dVVFRBQUEOIdwWAAAE0ElEQVRoge1a2ZaqOhBtKgyiiCAgo4r8/0ceQAKZIAnQ59x1F/utWyqbJDXsFPn5OXDgwIEDBw7owrOiLMsiy/trjOY1KBuY8CqDs/nLnN41t1sqxzYm2E7Hnl9/b+ZF3BIgQwTU/lIWv0Fq1ukc6Uid1nsvuBmmYC+QDksOaXDZkdW7qbAOzPVuG519FFm/zNVjH9oAHGXWDj7cd2C9VKDF2gEaayttoTlZPOXrNtp6MXTmgSDcQnvXX2OMLZu8gbYlzv8J7XriYBvt2qW+baVtiWt92mw7bUusnbpcYwqgrsgp52eqVCLQLRPPabrILrJz8Fqugt/ptfXolD3S6UH46NHWxCoPfhndJcyt6Ij6J8k40MsfkU0wwHn476VlHlbAGeWV4yPMipNyQfAiiDR4S9KpiD2KSvBbrqR6xvcgDMPgHj+rpP2PD89sfMqjrJ/qtFfSEAH506kp68hyif+4VnSLmxv5UEo6oUaJqHzCzq7UX3jAk7T3G1UBcqZC19dYqAExNQDc5BY9Gn9XXvulZlXQmcrXDMEWJa0VFHf4Q1shpM3b0MnNV/IQi03M4MqNKHjcCCoxHHJWqn6BUXAjBApWKVsB4KTJe2V57bfc6MK9rL5s4BQDyHVtzdiovCsHOhKVBAATAzppbgIrGpxSasLUOr9ZQUuV7+/bywzYKFop/B/sMLJIOtEGKFl5qmSiQhqLjCuCfGPEYLS3NIJj5nndnIHBxDDEkuc/dAToC9EBGVtclvfLe1H7guxs8fF5WAkVF/Zrmdelwwglaw/QJjMBSXExWXfeideA5Q7Tf4XX0FG/JKwUbeF11vpVZGzhNWBtz5GtDLq8O+UNGa+bMMuztjsSsg66HEdeReerlWWQK4R+JakvTNlHycrOLuPO0sLP9nD2qr+y/WLl1cpCmLPD1BID1v/1OxQdPLYzANI8wEnQNR7Na3+pCePQ1HFfFS47XYUTEq+59c+hJTeG/KDCeqJuS+aH90012cL36TST5VkwgoJZLDCrNWgFrXKpquvAnSI7w1L1DOxye2uoVrVkUApkWxIUp1w7Alo7UbIdgs9+naPingJ+iSSUaY8oTISdREXHvKDe+NtPMQM8lA1GFT7m9Jb1CCskbtoipJgBhtoAcV+LruMckA+QVmXOligzL7tmoT/TNVXOeNZ7aHW++rCjGu9I9DUsmOXsLN7KmhTnrOHzExVZwi4Ye76npqvSVPliFL92f25138S+CbssXCeFfE8N5TCegp1e5xSTm84IkHR2nfW6QWP0f+P2CvSLcGD7ChOtnm64vHH0GP3f0Qe318W5miu4eHnemlV03DEssKIgLuOgmMmXpxlefXk2+rSSkhXUoJ5W3ZdH4C1Tysxi3hWSoY2eFyY+yx8W8sJLt5Pb45I4eLWkzSQRr5OsvFNhvTFxGkqCX8DrqOdHFhdcBe22IMRBGOSfmTTA80K64QaJOV1m6L84gj+z2RwvVJuuzLis2lLkhXiVSxEIwVfgpfOGv+02wxePFEQfKed5EaS73JRxc+LuyIxfEbwO5FvXGOPRjMpJxmtDs9O1oO+4+CLUMq8Nqe7HFxluSV+Dl3gBkrXtnyU8yi6CxUnI6n4q91xhEu6tntXP9W0vbzpw4MCBAwf+9/gDAPw29HjkRogAAAAASUVORK5CYII=" />
+              <span class="skills-card-name">Git, GitHub</span>
+            </div>
+          </div>
+          <div class="skills-data">
+            <div class="skills-card">
+              <img class="skills-card-img skills-icon" src="images/postman.png" />
+              <span class="skills-card-name">Postman</span>
+            </div>
+          </div>
+          <!-- <div class="skills-data">
+            <div class="skills-card">
+              <img class="skills-card-img skills-icon" src="/images/cypress.jpg" alt="">
+              <span class="skills-card-name">Cypress </span>
+            </div>
+          </div> -->
+          <div class="skills-data">
+            <div class="skills-card">
+              <img class="skills-card-img skills-icon" src="images/cucumber-logo.jpg" />
+              <span class="skills-card-name">Cucumber</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <!--===== Git Section start =====-->
+
+    <section class="section" id="">
+      <h2 class="section-title">GitHub Skills</h2>
+
+      <!--Git Status -->
+      <div>
+        <p align="center"><img id="github-stats-card" align="center"
+            src="https://camo.githubusercontent.com/58211d3e128491987a56d45183f8659752b318733908edd75c34688292edd021/68747470733a2f2f6769746875622d726561646d652d73746174732e76657263656c2e6170702f6170693f757365726e616d653d6e616e6b73692673686f775f69636f6e733d74727565266c6f63616c653d656e"
+            alt="nanksi stats card" /></p>
+      </div>
+      <br>
+      <br>
+      <div>
+        <p align="center"><img id="github-streak-stats" align="center"
+            src="https://camo.githubusercontent.com/8764c03e978ff0787ed39b867f8f9f55d134c1a918bd320f84149efe5122ea8e/68747470733a2f2f6769746875622d726561646d652d73747265616b2d73746174732e6865726f6b756170702e636f6d2f3f757365723d6e616e6b736926"
+            alt="nanksi streak stats" /></p>
+      </div>
+      <br>
+      <br>
+      </div>
+      <div>
+        <p align="center"><img id="github-top-langs" align="center"
+            src="https://camo.githubusercontent.com/f96e674ab0304218b59bde8a0da0b5d900e1645a1c7e01c33e987c442c7a5bf5/68747470733a2f2f6769746875622d726561646d652d73746174732e76657263656c2e6170702f6170692f746f702d6c616e67733f757365726e616d653d6e616e6b73692673686f775f69636f6e733d74727565266c6f63616c653d656e266c61796f75743d636f6d70616374"
+            alt="nanksi top langs" /></p>
+      </div>
+      <br>
+      <br>
+      <div class="calendar react-activity-calendar" style="width: 80%; margin: auto;">
+        <!-- Loading stuff -->
+
+      </div>
+    </section>
+
+    </div>
+    <!--===== WORK =====-->
+    <!-- <section class="projects section" id="projects"> -->
+    <h2 class="section-title">Projects</h2>
+
+    <div id="projects">
+      <div class="project-card">
+        <div>
+          <img src="images/KTLogo.png" alt="">
+        </div>
+        <div>
+          <div class="Info">
+            <h3 class="project-title">Karnataka Tourism</h3>
+            <span class="project-description">
+              <b>About Karnataka Tourism:</b>
+              Govt. Website and give knowledge The sixth largest state in India is famous for its wildlife, heritage,
+              temples, monuments, beaches, adventure, food and much more.
+              <br>
+              Frontend Automating Tourism Based website (Karnataka Tourism) using Selenium with framework.
+              <br>
+              <br>
+              <p><b>Duration: </b> 05 days</p>
+
+              <p><b>Tech stack: </b>Selenium (Java) | TestNG | | POM</p>
+
+              <p><b>Areas of Responsibility: </b>
+                <br>
+                Automating Southern Karnataka Circuit page.
+                <br>
+                Automating Functionality.
+                <br>
+                Automating UI/UX.
+                <br>
+              </p>
+
+            </span>
+
+          </div>
+          <div id="Project-button">
+            <a href="" target="_blank"><button class="button-pr project-deployed-link">Presentation</button></a>
+            <a href="https://github.com/nanksi/Karnatakatourism_seleniumProject" target="_blank"><button
+                class="button-pr project-github-link">GitHub</button></a>
+            <a href="" target="_blank"><button class="button-pr project-github-link">Documentation</button></a>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="project-card">
+        <div>
+          <img src="images/GitHub-Simbolo.png" alt="">
+        </div>
+        <div>
+          <div class="Info">
+            <h3 class="project-title">GITHUB</h3>
+            <span class="project-description">
+              <b>About GitHub:</b>
+              GitHub is a web-based platform that provides hosting for version control repositories. It allows
+              developers to collaborate on projects, track changes to code, and manage software development projects
+              effectively.
+              <br>
+              API Testing on GitHub API using Rest Assured with Cucumber Framework.
+              <br>
+              <br>
+              <p><b>Duration: </b> 03 days</p>
+
+              <p><b>Tech stack: </b>Selenium (Java) | TestNG | Extent Report | REST Assured</p>
+
+              <p><b>Areas of Responsibility: </b>
+                Cover all the Endpoints:
+                <br>
+                Create repository
+                <br>
+                Create an AUTOLINK
+                <br>
+                Get an AUTOLINK
+                <br>
+                Create or update FILE CONTENT
+                <br>
+                Delete a FILE
+                <br>
+                Delete an AUTOLINK
+              </p>
+
+            </span>
+
+          </div>
+          <div id="Project-button">
+            <a href="" target="_blank"><button class="button-pr project-deployed-link">Presentation</button></a>
+            <a href="https://github.com/nanksi/RestAssured-Github-API-Framework-Testing.git" target="_blank"><button
+                class="button-pr project-github-link">GitHub</button></a>
+            <a href="" target="_blank"><button class="button-pr project-github-link">Documentation</button></a>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="project-card">
+        <div>
+          <img src="images/Lifestyle-Logo.webp" alt="">
+        </div>
+        <div>
+          <div class="Info">
+            <h3 class="project-title">Lifestyle</h3>
+            <span class="project-description">
+              <b>About Lifestyle:</b>
+              A company that sells products or services closely aligned with a particular lifestyle or set of values.
+              These companies often aim to promote a specific image, culture, or way of living through their offerings.
+              <br>
+              Automating Life Style website using Cypress
+              <br>
+              <br>
+              <p><b>Duration: </b> 03 days</p>
+
+              <p><b>Tech stack: </b>Cypress | BDD Cucumber | X-Mind | Chai | Mocha</p>
+
+              <p><b>Areas of Responsibility: </b>
+                <br>
+                Searching feature
+                <br>
+                Listing and filtering
+                <br>
+                Wishlist
+                <br>
+              </p>
+            </span>
+
+          </div>
+          <div id="Project-button">
+            <a href="" target="_blank"><button class="button-pr project-deployed-link">Presentation</button></a>
+            <a href="https://github.com/nanksi/LifestyleStores_Cypress_BDD_Cucumber.git" target="_blank"><button
+                class="button-pr project-github-link">GitHub</button></a>
+            <a href="" target="_blank"><button class="button-pr project-github-link">Documentation</button></a>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="project-card">
+        <div>
+          <img src="images/app.png" alt="">
+        </div>
+        <div>
+          <div class="Info">
+            <h3 class="project-title">Banjara Ride</h3>
+            <span class="project-description">
+              About Banjara Rides: Banjara Ride is Bhopal based Automobile renting enterprise where it provides
+              traveling solutions from a wide range of motorbikes and scooters. We provide motorbikes or Scooters so
+              customers get vehicles for their personal or professional use with no hectic charges and at a durable
+              price.
+              <br>
+              Hybrid App(Banjara Rides) Testing by using Appium-Java.
+              <br>
+              <br>
+              <p><b>Duration: </b> 04 days</p>
+
+              <p><b>Tech stack: </b>Selenium | Appium | Java | TestNG </p>
+
+              <p><b>Areas of Responsibility: </b>
+                <br>
+                Login
+                <br>
+                Order a ride
+                <br>
+                Notification section
+                <br>
+                Play video
+                <br>
+                stop video
+                <br>
+
+              </p>
+            </span>
+
+          </div>
+          <div id="Project-button">
+            <a href="" target="_blank"><button class="button-pr project-deployed-link">Presentation</button></a>
+            <a href="https://github.com/fw210571/BanjararideAppTesting" target="_blank"><button
+                class="button-pr project-github-link">GitHub</button></a>
+            <a href="" target="_blank"><button class="button-pr project-github-link">Documentation</button></a>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="project-card">
+        <div>
+          <img src="images/Khan_Academy.png" alt="">
+        </div>
+        <div>
+          <div class="Info">
+            <h3 class="project-title">Khan Academy</h3>
+            <span class="project-description">
+              <b>About Khan Academy</b>
+              Khan Academy is a nonprofit educational organization that provides free online learning resources and
+              courses. It was founded in 2008 by educator Salman Khan with the mission of providing a high-quality
+              education to anyone, anywhere.
+              <br>
+              Hybrid App(Khan Academy) Testing by using Cypress Webdriver-IO.
+              <br>
+              <br>
+              <p><b>Duration: </b> 04 days</p>
+
+              <p><b>Tech stack: </b>Cypress | Webdriver-IO | JavaScript | Allure-report </p>
+
+              <p><b>Areas of Responsibility: </b>
+                <br>
+                Login
+                <br>
+                Nevigate to Cryptography
+                <br>
+                Add Bookmark Videos
+                <br>
+                Delete Bookmark
+                <br>
+
+              </p>
+            </span>
+
+          </div>
+          <div id="Project-button">
+            <a href="" target="_blank"><button class="button-pr project-deployed-link">Presentation</button></a>
+            <a href="https://github.com/fw210571/khanAcademyFramework" target="_blank"><button
+                class="button-pr project-github-link">GitHub</button></a>
+            <a href="" target="_blank"><button class="button-pr project-github-link">Documentation</button></a>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+
+    <!--===== FOOTER + CONTACT=====-->
+    <footer class="footer section" id="contact">
+      <h2 class="section-title">Get in touch</h2>
+      <p class="footer-title">Nandan Kumar Singh</p>
+      <div class="footer-social">
+        <a id="contact-linkedin" href="https://www.linkedin.com/in/nandan3512/" target="_blank" class="footer-icon"><i
+            style="font-size: 148%;" class="bx bxl-linkedin">
+            <br />
+            LinkedIn</i></a>
+        <a id="contact-github" href="https://github.com/nanksi" target="_blank" class="footer-icon"><i
+            style="font-size: 148%;" class="bx bxl-github">
+            <br />
+            GitHub</i></a>
+        <a id="contact-email" href="mailto:nandan.kumar.singh.3512@gmail.com" target="_blank" class="footer-icon"><i
+            style="font-size: 148%;" class="bx bx-mail-send">
+            <br />
+            nandan.kumar.singh.3512@gmail.com</i></a>
+        <a id="contact-phone" href="tel:+91 9325491615" target="_blank" class="footer-icon"><i style="font-size: 148%;"
+            class="bx bx-phone">
+            <br />
+            +91-9325491615</i></a>
+      </div>
+
+    </footer>
+    <!--===== SCROLL REVEAL =====-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--===== MAIN JS =====-->
+    <script src="index.js"></script>
+
+    <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js">
+    </script>
+    <script>
+      // or enable responsive functionality:
+      GitHubCalendar(".calendar", "nanksi", { responsive: true });
+
+    </script>
+
+</body>
+
+</html>
